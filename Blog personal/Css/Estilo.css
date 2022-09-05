@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 400;
+}
+.header{
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.social{
+    background-color: #c3f00d;
+    width: 100%;
+    height: 50px;
+    display: grid;
+    
+}
+.social-icons{
+    width: 250px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+}
+.social-icons a{
+    color: aliceblue;
+    font-size: 28px;
+
+}
+.social-icons a:hover{
+    color: antiquewhite;
+}
